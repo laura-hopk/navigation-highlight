@@ -1,7 +1,41 @@
 html {
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ffe500;
+  display: block;
+}
+
+h1 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ol {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ol li {
+  display: inline-block;
+  font-family: Georgia, serif;
+  text-decoration:
 }
