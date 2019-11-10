@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #fff;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -54,4 +55,48 @@ a:hover {
 
 .current {
   background-color: #b20953;
+}
+
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+  font-size: 1.875rem;
+  margin: .3em;
+  text-align: left;
+}
+
+div {
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 0 1em;
+}
+
+p {
+  text-align: left;
+  font-size: 1.125rem;
+  font-family: Georgia, serif;
+  display: block;
+  padding: 1.5rem;
+  color: #2f2d13;
+}
+
+b {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+  display: block;
+  padding: 1em;
+}
+
+cite {
+  font-family: Georgia, serif;
+  font-style: normal;
 }
