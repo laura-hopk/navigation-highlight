@@ -15,6 +15,10 @@ body {
 header {
   background-color: #ffe500;
   display: block;
+  padding-bottom: .75em;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 h1 {
@@ -24,6 +28,7 @@ h1 {
   display: block;
   text-align: center;
   margin: 0;
+  margin-bottom: .1em;
 }
 
 nav {
@@ -33,6 +38,8 @@ nav {
 nav ol {
   display: inline-block;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ol li {
@@ -44,7 +51,9 @@ a {
   text-decoration: none;
   background-color: #b2a212;
   color: #fff;
-  padding: .5em;
+  padding: .4em;
+  padding-left: .5em;
+  padding-right: .5em;
   border-radius: 4px;
   font-size: 1.125rem;
 }
@@ -60,29 +69,64 @@ a:hover {
 h2 {
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
-  font-size: 1.875rem;
-  margin: .3em;
+  font-size: 1.8rem;
   text-align: left;
+  margin: .75em;
+  margin-left: .25em;
+  display: inline-block;
+}
+
+.blueberries {
+  margin: .5em;
+  margin-top: .75em;
+}
+
+.grapes {
+  margin: .5em;
+  margin-top: .75em;
+}
+
+.red-currants {
+  margin: .5em;
+  margin-top: .75em;
 }
 
 div {
   display: inline-block;
-  text-align: center;
+}
+
+.b {
+  margin: .75em;
+  margin-bottom: .25em;
+}
+
+.g {
+  margin: .75em;
+  margin-bottom: .25em;
+}
+
+.r {
+  margin: .75em;
+  margin-bottom: .25em;
 }
 
 img {
   display: block;
   width: 100%;
-  margin: 0 1em;
+  padding-bottom: .5em;
 }
 
 p {
   text-align: left;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: Georgia, serif;
   display: block;
   padding: 1.5rem;
-  color: #2f2d13;
+  padding-top: .55rem;
+  padding-left: 0;
+  padding-bottom: 1rem;
+  padding-right: .5em;
+  margin: 0;
 }
 
 b {
@@ -93,10 +137,12 @@ footer {
   background-color: #ffe500;
   text-align: center;
   display: block;
-  padding: 1em;
+  padding: .75em;
+  color: #2f2d13;
 }
 
 cite {
   font-family: Georgia, serif;
   font-style: normal;
+  font-size: .75rem;
 }
